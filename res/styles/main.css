@@ -39,6 +39,7 @@ h1,h2,h3{
 /********** HEADER AND NAVBAR **********/
 #nav-wrapper{
   position: sticky;
+  position: -webkit-sticky;
   left: 0;
   top: 0;
   width: 100%;
