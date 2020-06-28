@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Phiko Electricals</title>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="res/styles/main.css">
 </head>
 <body>
+
+  <div id="inventory">
+    <div id="close-btn">x</div>
+    <div id="inventory-data"></div>
+  </div>
+  
   <div id="main-wrapper">
     <div id="nav-wrapper">
       <div id="logo">
@@ -56,7 +62,7 @@
         <li class="service-item"><i class="fas fa-angle-double-right"></i> Automatic Change Over System</li>
         <li class="service-item"><i class="fas fa-angle-double-right"></i> Biodigester Systems</li>
       </ul>
-      <a class="btn btn-big" href="#">Visit Our Gallery</a>
+      <a class="btn btn-big" href="gallery.html">View Our Gallery</a>
     </div>
 
     <div id="products" class="section">
@@ -69,7 +75,7 @@
         <img src="res/images/extension-board.jpg" alt="Extension board">
         <img src="res/images/sockets.jpg" alt="Socket and plug">
       </div>
-      <a class="btn btn-big" href="#">View all products</a>
+      <a id="product-btn" class="btn btn-big" href="#">View all products</a>
     </div>
 
     <div id="features" class="section">
@@ -126,5 +132,6 @@
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
   <script src="res/script/index.js"></script>
+  <script src="res/script/product.js"></script>
 </body>
 </html>

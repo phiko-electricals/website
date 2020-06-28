@@ -1,0 +1,28 @@
+/* #main-wrapper{
+  background: transparent;
+} */
+#gallery-container{
+  position: relative;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+#gallery img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+figcaption{
+  background: black;
+  line-height: 1;
+  padding: 5px;
+  font-size: .8rem;
+  text-align: center;
+  color: #aaa;
+}
+@media (max-width: 600px){
+  #gallery-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
