@@ -155,7 +155,7 @@ h1,h2,h3{
   text-align: center;
 }
 #gallery{
-  margin-top: 60px;
+/*   margin-top: 60px; */
 }
 /********** MAIN **********/
 .section{
@@ -369,19 +369,16 @@ h1,h2,h3{
     width: 100%;
   }
   #nav-list{
-    display: flex;
+    display: none;
     position: absolute;
     right: 0px;
     top: 60px;
     width: 50%;
     flex-direction: column;
     background-color: #fff;
-    transform: translateX(100%);
-    transition: all .5s ease;
   }
   .show-list{
-    transform: translateX(0%) !important;
-    transition: all .5s ease;
+    display: flex !important;
   }
   .nav-list-iten{
     width: 100%;
